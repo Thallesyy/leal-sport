@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catálogo — Leal Sportwear</title>
+<meta name="description" content="Todas as camisas de futebol originais disponíveis na Leal Sportwear. Filtre por marca, época e disponibilidade.">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-pagina="catalogo">
+
+<div class="announce" id="announce"></div>
+<header class="header" id="header"></header>
+
+<div class="page-head">
+  <div class="wrap">
+    <div class="crumbs"><a href="index.html">Início</a> / Catálogo</div>
+    <h1 id="page-title">Todas as camisas</h1>
+  </div>
+</div>
+
+<section class="section section--tight">
+  <div class="wrap">
+    <div class="toolbar">
+      <div class="chips" id="chips"></div>
+      <select class="select" id="ordem" aria-label="Ordenar por">
+        <option value="recentes">Mais recentes</option>
+        <option value="antigas">Mais antigas</option>
+        <option value="preco-asc">Menor preço</option>
+        <option value="preco-desc">Maior preço</option>
+        <option value="nome">Nome (A–Z)</option>
+      </select>
+    </div>
+
+    <form class="search" id="busca-form" style="display:flex;width:100%;max-width:360px;margin-bottom:22px">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input type="search" id="busca-input" placeholder="Buscar por clube, ano, jogador…" aria-label="Buscar camisas">
+    </form>
+
+    <p class="count" id="count"></p>
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+
+<footer class="footer" id="footer"></footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
