@@ -94,6 +94,5 @@ como `preco: null` → o site mostra "Sob consulta" e manda para o WhatsApp.
 Preencha os valores reais em `data.js` quando quiser exibi-los.
 
 **Condições comerciais:** o site anuncia "PIX ou Mercado Pago" e "envio seguro
-para todo o Brasil", exatamente como os posts dizem. O "frete grátis acima de
-R$ 500" é texto de vitrine e ainda não foi confirmado — o valor fica em
-`CONFIG.freteGratis` (`data.js`); mude ou remova conforme a regra real.
+para todo o Brasil" — exatamente o que os posts dizem, sem promessa de desconto
+nem de frete grátis. O valor do frete é combinado direto no WhatsApp.

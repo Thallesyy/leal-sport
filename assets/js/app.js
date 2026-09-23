@@ -153,7 +153,7 @@ function montarChrome() {
             <ul>
               <li>Envio seguro para todo o Brasil</li>
               <li>Correios (PAC ou Sedex)</li>
-              <li>Frete grátis acima de ${brl(CONFIG.freteGratis)}</li>
+              <li>Frete combinado no WhatsApp</li>
               <li>Código de rastreio em todo pedido</li>
             </ul>
           </div>

@@ -14,7 +14,6 @@ const CONFIG = {
   instagramUrl: 'https://www.instagram.com/leal_sportwear/',
   proprietario: '@daniel_leal81',
   email: '',                          // opcional
-  freteGratis: 500,                   // frete grátis acima de R$ (ajustável)
 };
 
 /* Cada camisa veio de um post do Instagram @leal_sportwear.
